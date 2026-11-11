@@ -104,7 +104,7 @@ input, textarea{
   width: 100%;
 	background-color: #d84f19;
   padding: 8px 8px 8px 8px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   margin-bottom: 16px;
 }
 
@@ -135,7 +135,7 @@ button{
   color: rgb(0, 0, 0);
   padding: 8px;
   margin-top: 8px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   font-size: 18px;
 }
 
