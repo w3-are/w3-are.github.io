@@ -155,4 +155,7 @@ textarea{
   section div{
       padding: 32px;
   }
+	footer{
+		position: static;
+	}
 }
