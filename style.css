@@ -1,6 +1,13 @@
 @font-face {
   font-family: Telegraf;
-  src: url(telegraf-regular.otf), url(telegraf-bold.otf);
+  src: url("assets/telegraf-regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Telegraf;
+  src: url("assets/telegraf-bold.otf") format("opentype");
+  font-weight: 700;
 }
 
 body {
