@@ -35,12 +35,16 @@ header{
   top: 0;
   left: 0;
 
-	width:100vw;
   padding: 32px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
 }
 
 section {
