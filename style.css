@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Telegraf;
+  src: url(telegraf-regular.otf), url(telegraf-bold.otf);
+}
+
+body {
+	font-family: Telegraf, Arial;
+	font-size: 18px;
+	line-height: 1.5;
+	
+	background-color: #D84F19;
+	color: #000000;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+h2{
+  font-weight: 700;
+
+}
+
+header{
+  position: static;
+  top: 0;
+  left: 0;
+
+	width:100vw;
+  padding: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  max-width: 532px; /* The content limit */
+  margin: 0 auto 0 auto; /* Centers the grid content */
+  
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 32px;
+  grid-auto-flow: dense;
+  
+  /* Ensure padding for smaller screens */
+  box-sizing: border-box; 
+}
+
+div{
+  grid-column: 1 / span 10;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: 32px;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  color: #000000;
+  text-decoration: none;
+}
+
+button:hover{
+  text-decoration: none;
+  color: #d84f19;
+  background-color: black;
+
+  text-underline-offset: 2px;
+}
+
+input, textarea{
+  width: 100%;
+	background-color: #d84f19;
+  padding: 8px 8px 8px 8px;
+  border: 2px solid #000000;
+  margin-bottom: 16px;
+}
+
+input:hover{
+  background-color: black;
+  color: #d84f19;
+}
+
+textarea:hover{
+  background-color: black;
+  color: #d84f19;
+}
+
+footer nav img {
+  width: 48px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+button{
+  background-color: #d84f19;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  margin-top: 16px;
+  border: 2px solid #000000;
+  font-size: 18px;
+}
+
+textarea{
+  height: 100px;
+}
+
+@media (max-width: 564px) {
+h2  {
+    font-size: 18px;
+  }
+   body {
+    font-size: 1rem;
+  }
+  section div{
+      padding: 32px;
+  }
+}
