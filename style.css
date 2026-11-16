@@ -142,6 +142,12 @@ textarea{
   height: 100px;
 }
 
+button,
+input,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 @media (max-width: 564px) {
   section div{
       padding: 32px;
